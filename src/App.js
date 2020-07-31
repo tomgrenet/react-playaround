@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import TestingReturnSyntax from './ChildComponent/TestingReturnSyntax'
+import TestingConditionalFormatting from './ChildComponent/TestingConditionalFormatting'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Test page</h1>
+      <br />
+      
+      <h2>Test various syntax for returning something from a method</h2>
+      <TestingReturnSyntax />
+      <br />
+
+      <h2> Conditional formatting</h2>
+      <TestingConditionalFormatting />
+      <br />
+
     </div>
   );
 }
